@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.section-one {
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
+  padding: 10px;
+}
+
+.logo img {
+  width: 150px;
+}
+
+.search-section {
+  display: flex;
+  gap: 10px;
+}
+
+.search-bar {
+  display: flex;
+}
+
+.btn {
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  background: rgb(205, 202, 202);
+}
+.search-bar input {
+  padding: 20px;
+  min-width: 500px;
+  height: 51px;
+  border: 1px solid #ccc;
+}
+
+.search-icon {
+  padding: 15px;
+  border-radius: 50%;
+  background: #ccc;
+  display: grid;
+  place-items: center;
+}
+
+.info-section {
+  display: flex;
+  gap: 30px;
+  margin-right: 60px;
+  place-items: center;
+}
+
+.section-two {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  font-size: 18px;
+  border-top: 1px solid #ccc;
+}
+
+.item {
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  background-color: rgb(216, 215, 215);
+}
+
+.item:hover {
+  background-color: black;
+  color: white;
+}
+
+.dark {
+  color: white;
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  background-color: black;
+}
+
+.section-three {
+  display: flex;
+
+  flex-direction: column;
+  padding: 10px;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.side-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.side-item img {
+  width: 33px;
+}
+
+.side-item p {
+  font-size: 10px;
+}
+
+.main-container {
+  display: flex;
+}
+
+.main-containertwo {
+  width: 100%;
+}
+
+#bars {
+  margin: 10px;
+}
+
+.fourth-container {
+  min-height: 100vh;
+  background-color: rgb(240, 238, 238);
+}
+
+.fourth-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+main {
+  min-height: 100vh;
+  background-color: rgb(240, 238, 238);
+  color: black;
+}
+
+.cards {
+  max-width: 320px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  transition: 0.2s ease-in-out;
+}
+
+.full-content {
+  padding-top: 10px;
+  display: flex;
+  gap: 13px;
+  max-width: 320px;
+  justify-content: space-around;
+}
+
+.text-item {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.info-item {
+  display: flex;
+  gap: 10px;
+}
+
+.do {
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.text-item h3 {
+  font-weight: 700;
+}
+
+.cards:hover {
+  transform: scale(1.1, 1.1);
+}
